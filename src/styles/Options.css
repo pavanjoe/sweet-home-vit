@@ -1,0 +1,38 @@
+.options-container .card {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    height: 100%;
+}
+
+.options-container .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.options-container .fas {
+    font-size: 100px;
+    padding-top: 30px;
+    color: #2e98f9;
+}
+
+.options-container .btn {
+    background-color: #2e98f9 !important;
+    color: white;
+    border-radius: 25px;
+    transition: transform 0.2s;
+    font-family: cursive;
+}
+
+.options-container .btn:hover {
+    transform: scale(1.1);
+}
+
+.options-container h5 {
+    font-weight: 550;
+    font-family: cursive;
+}
+
+.options-container p {
+    font-family: cursive;
+}
+

@@ -1,0 +1,76 @@
+.nav-wrapper .navbar {
+  background-color: #1f3345 !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-wrapper .navbar-nav .nav-link {
+  color: #fff;
+  transition: color 0.3s;
+  transition: transform 0.2s;
+  font-size: larger;
+  font-family: cursive;
+}
+
+.nav-wrapper .navbar-nav .nav-link:hover {
+  transform: scale(1.15);
+}
+
+.nav-wrapper .ml-auto .btn.btn-danger {
+  background-color: rgb(226, 168, 43) !important;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: black;
+  font-family: cursive;
+  
+}
+
+.nav-wrapper .ml-auto .btn.btn-danger:hover {
+  background-color: rgb(15, 123, 26) !important;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  color: white;
+}
+
+.nav-wrapper .ml-auto .btn.btn-danger-logout {
+  background-color: rgb(226, 168, 43) !important;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: black;
+  font-family: cursive;
+  
+}
+
+.nav-wrapper .ml-auto .btn.btn-danger-logout:hover {
+  background-color: rgb(255, 0, 0) !important;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  color: white;
+}
+
+.nav-wrapper .navbar-brand {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(107, 121, 232) !important;
+  font-size: 40px !important;
+}
+
+.nav-wrapper .navbar-nav .nav-link {
+  padding: 15px 20px;
+}
+
+.nav-wrapper .ml-auto {
+  display: flex;
+  align-items: center;
+}
+
+.nav-wrapper .dropdown-item:hover {
+  background-color: #e9ecef;
+  color: black;
+}

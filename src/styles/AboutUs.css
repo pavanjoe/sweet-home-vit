@@ -1,0 +1,57 @@
+.about-us .centered-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+    
+.about-us .fade-in-element {
+  opacity: 0;
+  transition: opacity 3s;
+}
+  
+.about-us .visible {
+  opacity: 1;
+}
+
+.about-us .header {
+  color: rgb(226, 168, 43);
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px; 
+}
+
+.about-us .centered-div .intro {
+  color: white;
+  font-size: 18px;
+}
+  
+.about-us .centered-div table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  color: rgb(226, 168, 43);
+  font-size: 25px;
+}
+  
+  
+.about-us .centered-div td {
+  padding: 10px;
+  font-family: cursive;
+}
+
+.about-us .centered-div tr {
+  transition: transform 0.3s;
+}
+
+.about-us .centered-div tr:hover {
+  transform: scale(1.05);
+}
+
+.about-us .centered-div a {
+  text-decoration: none;
+  color: #b3c0ce;
+}
+
+.about-us .intro {
+  font-family: cursive;
+}

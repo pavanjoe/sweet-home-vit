@@ -1,0 +1,10 @@
+@keyframes fade {
+    0%,100% {opacity: 0.4;}
+    50% {opacity: 1;}
+}
+
+@media screen and (max-width: 576px) {
+    .login-background {
+        display: none !important;
+    }
+}
