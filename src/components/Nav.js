@@ -47,7 +47,7 @@ function Nav() {
       <div className='nav-wrapper'>
         <nav className="navbar navbar-expand-md py-2">
           <div className='container-fluid d-flex justify-content-between'>
-            <span className="navbar-brand mx-md-4 mx-0 order-0 flex-md-grow-0 flex-grow-1" onClick={() => {handleHome()}} style={{cursor: "pointer"}}>Planify</span>
+            <span className="navbar-brand mx-md-4 mx-0 order-0 flex-md-grow-0 flex-grow-1" onClick={() => {handleHome()}} style={{cursor: "pointer"}}>SweetHome</span>
             
             <button 
               class="navbar-toggler mx-2 bg-white" 
