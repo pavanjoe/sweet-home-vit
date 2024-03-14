@@ -66,13 +66,6 @@ function Nav() {
                     Home
                   </span>
                 </li>
-                {currentUser && 
-                  <li className="nav-item">
-                    <span className="nav-link mx-3" onClick={() => {navigate("/profile")}} style={{cursor: "pointer"}}>
-                      Profile
-                    </span>
-                  </li>
-                }
               </ul>
             </div>
             

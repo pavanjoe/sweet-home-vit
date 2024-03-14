@@ -5,22 +5,27 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #CCAFA5;
+    font-size: 20px;
   }
-  
+
   .bottom-right-button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    padding: 10px 20px;
-    background-color: #007bff;
+    padding: 15px 30px;
+    background-color: #BDC3CB;
     color: white;
     border: none;
     border-radius: 50%;
+    font-size: 30px;
     cursor: pointer;
-  }
+    transition: transform 0.3s;
+}
+
   
   .bottom-right-button:hover {
-    background-color: #0056b3;
+    background-color: #CCAFA5;
+    transform: scale(1.1);
   }
   

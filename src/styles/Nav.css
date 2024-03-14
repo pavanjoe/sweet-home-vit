@@ -1,14 +1,14 @@
 .nav-wrapper .navbar {
-  background-color: #1f3345 !important;
+  background-color: #F1F2ED !important;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .nav-wrapper .navbar-nav .nav-link {
-  color: #fff;
+  color: #CCAFA5;
   transition: color 0.3s;
   transition: transform 0.2s;
   font-size: larger;
-  font-family: cursive;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .nav-wrapper .navbar-nav .nav-link:hover {
@@ -16,7 +16,7 @@
 }
 
 .nav-wrapper .ml-auto .btn.btn-danger {
-  background-color: rgb(226, 168, 43) !important;
+  background-color: #BDC3CB !important;
   border: none;
   padding: 8px 15px;
   border-radius: 5px;
@@ -35,7 +35,7 @@
 }
 
 .nav-wrapper .ml-auto .btn.btn-danger-logout {
-  background-color: rgb(226, 168, 43) !important;
+  background-color: #BDC3CB !important;
   border: none;
   padding: 8px 15px;
   border-radius: 5px;
@@ -56,9 +56,9 @@
 .nav-wrapper .navbar-brand {
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Dancing Script', cursive;
-  color: rgb(107, 121, 232) !important;
-  font-size: 40px !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #CCAFA5 !important;
+  font-size: 25px !important;
 }
 
 .nav-wrapper .navbar-nav .nav-link {

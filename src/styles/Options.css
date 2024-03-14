@@ -12,11 +12,11 @@
 .options-container .fas {
     font-size: 100px;
     padding-top: 30px;
-    color: #2e98f9;
+    color: #CCAFA5;
 }
 
 .options-container .btn {
-    background-color: #2e98f9 !important;
+    background-color: #CCAFA5 !important;
     color: white;
     border-radius: 25px;
     transition: transform 0.2s;

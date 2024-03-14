@@ -17,29 +17,29 @@ function Options() {
     <div className="options-container d-flex flex-row flex-wrap">
       <div className='card-wrapper col-lg-3 col-sm-6 col-12 my-2'>
         <div class="card text-center m-1">
-          <i class="fas fa-calendar-check"></i>
+          <i class="fas fa-hand-peace"></i>
           <div class="card-body">
-              <h5 class="card-title">Easy Scheduling</h5>
-              <p class="card-text">Make scheduling easier by using our visual and user-friendly interface for quickly adding, arranging, and tracking tasks and appointments.</p>
+              <h5 class="card-title">Balance and Harmony</h5>
+              <p class="card-text">SweetHome designs serene bedrooms using Feng Shui principles. Share your preferences for a tranquil space tailored to you.</p>
               <button className='btn' onClick={(e) => {handleGetStarted(e)}}>Get Started</button>
           </div>
         </div>
       </div>
       <div className='card-wrapper col-lg-3 col-sm-6 col-12 my-2'>
         <div class="card text-center m-1">
-          <i class="fas fa-tasks"></i>
+          <i class="fas fa-bed"></i>
           <div class="card-body">
-              <h5 class="card-title">Create Task</h5>
-              <p class="card-text">Embark on your productivity journey by taking the first step – create your initial task and set the pace for effective task management.</p>
+              <h5 class="card-title">Customized Bedroom Design</h5>
+              <p class="card-text">SweetHome offers tailored bedroom designs to match users' tastes. From bed types to color schemes, users can visualize their ideal bedroom layout effortlessly</p>
           </div>
         </div>
       </div>
       <div className='card-wrapper col-lg-3 col-sm-6 col-12 my-2'>
         <div class="card text-center m-1">
-          <i class='fas fa-chart-line'></i>
+          <i class='fas fa-users'></i>
           <div class="card-body">
-              <h5 class="card-title">Track Progress</h5>
-              <p class="card-text">Monitor your progress with ease – our 'Track Progress' feature provides you with real-time insights and helps you stay on top of your goals.</p>
+              <h5 class="card-title">Your Style, Your Space</h5>
+              <p class="card-text">SweetHome lets you customize themes and furniture to match your unique style. From minimalist to cozy, create a bedroom that reflects your personality effortlessly</p>
           </div>
         </div>
       </div>

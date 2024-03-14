@@ -1,5 +1,5 @@
 .landing-page .content {
-    background-color: #1f3345;
+    background-color: #F1F2ED;
     background-size: 40% 100%;
     width: 100%;
 }
@@ -49,18 +49,19 @@
 }
 
 .landing-page h1 {
-    color: rgb(226, 168, 43);
-    font-family: 'Dancing Script', cursive;
-    font-size: 100px;
+    color: rgb(91 119 133);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 80px;
     animation: fadeIn 3s;
     line-height: 80px;
 }
 
 .landing-page h3 {
-    color: aliceblue;
+    color: black;
     animation: fadeIn 3s;
-    font-family: cursive;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-bottom: 3%;
+    font-size: 25px;
 }
 
 @keyframes fadeIn {
@@ -73,7 +74,7 @@
 }
 
 .landing-page .start {
-    background-color: rgb(226, 168, 43);
+    background-color: #BDC3CB;
     font-size: 18px;
     padding: 10px 20px;
     border: none;
