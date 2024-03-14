@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import '../styles/FormStyles.css'; // Import CSS file
+import '../styles/FormStyles.css'; 
+import axios from 'axios';
 
 export default function FormFill() {
   const [dimensions, setDimensions] = useState({ breadth: '', width: '' });
@@ -11,7 +12,7 @@ export default function FormFill() {
   const [theme, setTheme] = useState('');
   
   const handleThemeChange = (e) => {
-    setTheme(e.target.value);
+    setTheme(e.target.value); 
   }
 
 
@@ -25,14 +26,17 @@ export default function FormFill() {
 
   const handleBedTypeChange = (e) => {
     setBedType(e.target.value);
+    console.log(bedType);
   };
 
   const handleColorChange = (e) => {
     setColor(e.target.value);
+    console.log(color);
   };
 
   const handleFurnitureChange = (e) => {
     setNewFurniture(e.target.value);
+    
   };
 
   const handleFurnitureAdd = () => {
@@ -50,9 +54,31 @@ export default function FormFill() {
     setAesthetic(e.target.value);
   };
 
+  const handleSubmit = (e) =>{
+    e.preventDefault()
+    const FormData ={
+      dimensions,
+      bedType,
+      color,
+      furniture,
+      aesthetic,
+      theme
+    };
+    const formDataJSON = JSON.stringify(FormData);
+    console.log(formDataJSON);
+
+    axios.post('/form', formDataJSON)
+    .then(response => {
+      console.log("Data sent", response.data);
+    })
+    .catch(error =>{
+      console.log("error sending", error)
+    })
+  }
+
   return (
     <div className="form-container">
-      <form>
+      <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="breadth">Enter room dimensions:</label>
           <br />
@@ -88,7 +114,7 @@ export default function FormFill() {
             className='select-field'
           >
             <option value="">Select Bed Type</option>
-            <option value="">Single</option>
+            <option value="Single">Single</option>
             <option value="Queen">Queen</option>
             <option value="King">King</option>
             <option value="Bunk">Bunk</option>
